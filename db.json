@@ -1,132 +1,165 @@
 {
-    "burger":[
+  "burger": [
     {
-        "id": 1,
-        "name": "Burger",
-        "price":40,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 1,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 2,
-        "name": "Burger",
-        "price":40,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 2,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 3,
-        "name": "Burger",
-        "price":40,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 3,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 4,
-        "name": "Burger",
-        "price":40,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 4,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 5,
-        "name": "Burger",
-        "price":40,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 5,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 6,
-        "name": "Burger",
-        "price":40,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 6,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 4,
-        "name": "Burger",
-        "price":40,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 4,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 7,
-        "name": "Burger",
-        "price":40,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 7,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 8,
-        "name": "Burger",
-        "price":25,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 8,
+      "name": "Burger",
+      "price": 25,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 9,
-        "name": "Cheese Burger",
-        "price":30,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 9,
+      "name": "Cheese Burger",
+      "price": 30,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 10,
-        "name": "Burger XL",
-        "price":40,
-        "category":"Burgers",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 10,
+      "name": "Burger XL",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 11,
-        "name": "Large Fries",
-        "price":15,
-        "category":"Fries",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 11,
+      "name": "Large Fries",
+      "price": 15,
+      "category": "Fries",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     },
     {
-        "id": 12,
-        "name": "Medium Fries",
-        "price":10,
-        "category":"Fries",
-        "description":"Lorem ipsum dolor sit amet ipsum dolor sit amet",
-        "image":"/assets/images/burger.png"
+      "id": 12,
+      "name": "Medium Fries",
+      "price": 10,
+      "category": "Fries",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
     }
-
-    ],
-    "testimonials":[
-        {
-            "id": 1,
-            "name": "John Doe",
-            "status":"Manager",
-            "image":"/assets/images/john.jpg",
-            "testimony":"Phasellus at gravida arcu, vitae pretium tortor. Donec non imperdiet quam. In fermentum, lacus ut mattis rutrum, neque eros tempus erat, non vulputate neque arcu id justo. Mauris ac pretium risus. Phasellus tristique nunc eu felis tristique."  
-        },
-        {
-            "id": 2,
-            "name": "Anas Samoudi",
-            "status":"Web Developer",
-            "image":"/assets/images/image.jpeg",
-            "testimony":"Phasellus at gravida arcu, vitae pretium tortor. Donec non imperdiet quam. In fermentum, lacus ut mattis rutrum, neque eros tempus erat, non vulputate neque arcu id justo. Mauris ac pretium risus. Phasellus tristique nunc eu felis tristique, sed rutrum metus pulvinar. Proin ac enim eu urna mattis sagittis. Cras finibus bibendum mattis. "  
-        },
-        {
-            "id":3,
-            "name": "John Doe",
-            "status":"Manager",
-            "image":"/assets/images/john.jpg",
-            "testimony":"Phasellus at gravida arcu, vitae pretium tortor. Donec non imperdiet quam. In fermentum, lacus ut mattis rutrum, neque eros tempus erat, non vulputate neque arcu id justo. Mauris ac pretium risus. Phasellus tristique nunc eu felis tristique, sed rutrum metus pulvinar. Proin ac enim eu urna mattis sagittis. Cras finibus bibendum mattis. "  
-        }
-    ]
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "status": "Manager",
+      "image": "/assets/images/john.jpg",
+      "testimony": "Phasellus at gravida arcu, vitae pretium tortor. Donec non imperdiet quam. In fermentum, lacus ut mattis rutrum, neque eros tempus erat, non vulputate neque arcu id justo. Mauris ac pretium risus. Phasellus tristique nunc eu felis tristique."
+    },
+    {
+      "id": 2,
+      "name": "Anas Samoudi",
+      "status": "Web Developer",
+      "image": "/assets/images/image.jpeg",
+      "testimony": "Phasellus at gravida arcu, vitae pretium tortor. Donec non imperdiet quam. In fermentum, lacus ut mattis rutrum, neque eros tempus erat, non vulputate neque arcu id justo. Mauris ac pretium risus. Phasellus tristique nunc eu felis tristique, sed rutrum metus pulvinar. Proin ac enim eu urna mattis sagittis. Cras finibus bibendum mattis. "
+    },
+    {
+      "id": 3,
+      "name": "John Doe",
+      "status": "Manager",
+      "image": "/assets/images/john.jpg",
+      "testimony": "Phasellus at gravida arcu, vitae pretium tortor. Donec non imperdiet quam. In fermentum, lacus ut mattis rutrum, neque eros tempus erat, non vulputate neque arcu id justo. Mauris ac pretium risus. Phasellus tristique nunc eu felis tristique, sed rutrum metus pulvinar. Proin ac enim eu urna mattis sagittis. Cras finibus bibendum mattis. "
+    }
+  ],
+  "fburger": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
+    },
+    {
+      "id": 3,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
+    },
+    {
+      "id": 4,
+      "name": "Burger",
+      "price": 40,
+      "category": "Burgers",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit amet",
+      "image": "/assets/images/burger.png"
+    }
+  ]
 }
