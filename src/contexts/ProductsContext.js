@@ -7,7 +7,7 @@ export const ProductsProvider = ({ children }) => {
   const [products, dispatch] = useReducer(BurgersReducer, []);
 
   useEffect(() => {
-    fetch("  http://localhost:8000/burger")
+    fetch("https://my-json-server.typicode.com/SamoudiAnas/Burger-shop/burger")
       .then((res) => res.json())
       .then((data) =>
         dispatch({

@@ -19,7 +19,7 @@ export const FilterProvider = ({ children }) => {
 
   async function getTheData() {
     try {
-      let response = await fetch("http://localhost:8000/burger");
+      let response = await fetch("https://my-json-server.typicode.com/SamoudiAnas/Burger-shop/burger");
 
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
