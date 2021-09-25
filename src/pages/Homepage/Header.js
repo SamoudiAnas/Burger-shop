@@ -4,7 +4,9 @@ import mobile from "../../images/mobile.png";
 import desktop from "../../images/desktop.png";
 import burgerImage from "../../images/burger.png";
 //colors
-import { SecondaryColor } from "../../utils/constants";
+import { MainColor, SecondaryColor } from "../../utils/constants";
+
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -12,7 +14,10 @@ function Header() {
       <div className="container">
         <div className="info__container">
           <h1 className="hero__text">Share your love for burger</h1>
-          <button className="order">Order Now</button>
+
+          <Link to="/products" style={{ color: `${MainColor}` }}>
+            <button className="order">Order Now</button>
+          </Link>
         </div>
 
         <div className="img__container">
@@ -50,12 +55,16 @@ export const Wrapper = styled.section`
     font-family: "Poppins";
     font-weight: 700;
     text-transform: uppercase;
+    color: ${MainColor};
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
     margin: 20px 0;
     &::before {
       font-family: "Font Awesome 5 Free";
       content: "\f291";
       margin-right: 10px;
+    }
+    &:hover {
+      cursor: pointer;
     }
   }
 

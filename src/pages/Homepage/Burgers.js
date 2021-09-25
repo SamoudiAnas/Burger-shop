@@ -23,7 +23,7 @@ function Burgers() {
         </div>
         <div className="burgers__container">
           {burgers.map((burger) => (
-            <Burger burger={burger} />
+            <Burger key={burger.id} burger={burger} />
           ))}
         </div>
       </div>

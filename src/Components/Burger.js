@@ -1,17 +1,26 @@
 import React from "react";
 import styled from "styled-components";
 import { useCartContext } from "../contexts/CartContext";
+import { useNotificationContext } from "../contexts/NotificationContext";
 import { MainColor, SecondaryColor } from "../utils/constants";
 
 function Burger({ burger }) {
   const { addToCart } = useCartContext();
+  const [notification, setNotification] = useNotificationContext();
 
+  const orderHandler = (burger) => {
+    addToCart(burger);
+    setNotification(true);
+    setTimeout(() => {
+      setNotification(false);
+    }, 2000);
+  };
   return (
     <Wrapper>
       <h3 className="name">{burger.name}</h3>
       <p className="description">{burger.description}</p>
       <h1 className="price">{burger.price}$</h1>
-      <button className="order" onClick={() => addToCart(burger)}>
+      <button className="order" onClick={() => orderHandler(burger)}>
         Order Now
       </button>
       <img src={burger.image} alt="burger" />

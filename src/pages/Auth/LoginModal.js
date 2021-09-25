@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { MainColor, SecondaryColor } from "../../utils/constants";
+import { MainColor } from "../../utils/constants";
 import { useModalContext } from "../../contexts/ModalContext";
 
 function LoginModal() {

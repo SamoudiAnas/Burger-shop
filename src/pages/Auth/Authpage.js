@@ -7,7 +7,7 @@ import { useModalContext } from "../../contexts/ModalContext";
 import SignUpModal from "./SignUpModal";
 
 function Authpage() {
-  const [modal, setModal] = useModalContext();
+  const [modal] = useModalContext();
   return (
     <Wrapper>
       <div className="container">

@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import styled from "styled-components";
+import { useLocation } from "react-router";
+
 //font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,11 +16,14 @@ import { MainColor, SecondaryColor } from "../utils/constants";
 
 import img from "../images/desktop-sm.png";
 import { useCartContext } from "../contexts/CartContext";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const { cart } = useCartContext();
+  const location = useLocation();
+  const menuItems = useRef();
+  console.log(menuItems);
 
   return (
     <Wrapper className="section" isOpen={isOpen}>
@@ -33,25 +38,37 @@ function NavBar() {
         <div className="menu" onClick={() => setIsOpen(!isOpen)}>
           <FontAwesomeIcon icon={faBars} />
         </div>
-        <div className="menu__items">
+        <div className="menu__items" ref={menuItems}>
           <ul>
             <li className="menu__item">
-              <a href="/">Home</a>
+              <NavLink exact to="/" activeClassName="active">
+                {" "}
+                Home
+              </NavLink>
             </li>
           </ul>
           <ul>
             <li className="menu__item">
-              <a href="/about">About</a>
+              <NavLink exact to="/about" activeClassName="active">
+                {" "}
+                About
+              </NavLink>
             </li>
           </ul>
           <ul>
             <li className="menu__item">
-              <a href="/products"> Shop</a>
+              <NavLink exact to="/products" activeClassName="active">
+                {" "}
+                Shop
+              </NavLink>
             </li>
           </ul>
           <ul>
             <li className="menu__item">
-              <a href="/contact"> Contact</a>
+              <NavLink to="/contact" activeClassName="active">
+                {" "}
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -186,7 +203,6 @@ export const Wrapper = styled.header`
       a:hover {
         cursor: pointer;
       }
-
       a::before {
         content: "";
         width: 0;
@@ -198,6 +214,18 @@ export const Wrapper = styled.header`
         left: 50%;
         transform: translate(-50%, 400%);
       }
+      .active::before {
+        content: "";
+        width: 70%;
+        height: 3px;
+        transition: all 0.3s ease;
+        position: absolute;
+        background-color: ${SecondaryColor};
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 400%);
+      }
+
       &:hover > a::before {
         width: 70%;
       }

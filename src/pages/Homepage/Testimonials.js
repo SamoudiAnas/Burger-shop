@@ -15,7 +15,6 @@ function Testimonials() {
       .then((data) => setTestimonials(data));
   }, []);
 
-  console.log(testimonials);
   return (
     <Wrapper>
       <div className="container">
